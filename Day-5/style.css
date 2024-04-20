@@ -60,7 +60,7 @@ body{
 
 #secondNavbar{
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 77px;
 }
 .secondNav{
@@ -93,7 +93,7 @@ body{
 
 .firstBodyPart{
     height: 800px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/16689/images/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg444.jpg");
     background-size: cover;
 }
