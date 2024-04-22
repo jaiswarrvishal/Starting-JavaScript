@@ -1,0 +1,573 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+}
+#fullpage{
+    /* border: 1px solid red; */
+    height: 100%;
+    /* display: flex; */
+}
+.firstNav{
+    background-color: #F2F2F2;
+}
+#firstNavbar{
+    width: 98%;
+    margin: auto;
+    /* border: 2px solid black; */
+    height: 80px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+}
+.leftFirstNavbar{
+    /* border: 1px solid black; */
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.middleFirstNavbar{
+    /* border: 1px solid black; */
+    width: 15%;
+    margin-right: 80px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+    /* justify-content: space-between; */
+}
+.logos{
+    display: flex;
+    margin-top: 19px;
+    /* align-items: center; */
+    
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+.rightFirstNavbar{
+    /* border: 1px solid black; */
+    width: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightFirstNavbar > p > i{
+    font-size: 25px;
+    color: gray;
+}
+
+#secondNavbar{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 77px;
+}
+.secondNav{
+    width: 74%;
+    margin: auto;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.leftSecondNav{
+    width: 8%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+.rightSecondNav{
+    width: 14%;
+    /* border: 1px solid red; */
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.rightSecondNav i{
+    font-size: 28px;
+}
+
+.firstBodyPart{
+    height: 800px;
+    /* border: 1px solid blue; */
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/16689/images/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg444.jpg");
+    background-size: cover;
+}
+
+.one{
+    width: 547px;
+    height: 478px;
+    /* border: 4px solid rgb(222, 21, 21); */
+    background-color: #b4bd9b;
+    position: relative;
+    left: 798px;
+    top: 160px;
+}
+.two{
+    width: 610px;
+    height: 350px;
+    /* border: 4px solid rgb(222, 21, 21); */
+    background-color: white;
+    position: absolute;
+    left: 675px;
+    top: 380px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    /* justify-content: left; */
+    font-size: 25px;
+    padding: 40px;
+    /* margin-top: 20px; */
+    /* text-align: left; */
+}
+.text{
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text h1{
+    font-weight: 400;
+    /* font-size: 60px; */
+}
+.text h4{
+    font-weight: 400;
+}
+
+.secondBodyPart{
+    height: 600px;
+    /* border: 1px solid blue; */
+}
+.bodyOne{
+    height: 600px;
+    width: 78%;
+    margin: auto;
+    margin-top: 15px;
+    /* border: 2px solid black; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+}
+.bodyOneLeft{
+    height: 100%;
+    width: 55%;
+    /* border: 1px solid black; */
+    /* margin-top: 30px; */
+}
+.bodyOneLeft > img{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+}
+.bodyOneRight{
+    height: 75%;
+    width: 40%;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-right: 70px;
+}
+.bodyOneRight > img{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin-top: 70px;
+}
+
+.thirdBodyPart{
+    width: 100%;
+    height: 380px;
+    /* border: 2px solid red; */
+}
+.bodyTwo{
+    width: 85%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+.leftThirdBodyPart{
+    padding: 30px;
+    height: 100%;
+    width: 50%;
+    margin-left: 50px;
+    /* border: 1px solid black; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rightThirdBodyPart{
+    height: 100%;
+    width: 48%;
+    /* border: 1px solid black; */
+}
+.leftThirdBodyPart > h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 15px;
+}
+.leftThirdBodyPart > p{
+    font-size: 20px;
+    color: rgb(109, 108, 108);
+    line-height: 40px;
+}
+.secondP{
+    margin-top: 35px;
+}
+.rightThirdBodyPart{
+    padding: 60px;
+}
+.rightThirdBodyPart > p{
+    font-size: 21px;
+    color: rgb(88, 87, 87);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+}
+.rightThirdBodyPart > button{
+    padding: 10px 40px;
+    margin-top: 30px;
+    /* color: green; */
+    border-color: #748748;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: white;
+    /* border: none; */
+}
+button:hover{
+    background-color: #748748;
+    color: white;
+    border-color: #748748;
+}
+
+.forthBodyPart{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 300px;
+}
+.bodyThree{
+    width: 75%;
+    margin: auto;
+    /* border: 1px solid rgb(220, 65, 65); */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.leftForthBodyPart{
+    width: 18%;
+    /* border: 1px solid black; */
+    height: 60%;
+    margin-top: 55px;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    background-color: #6a7c3e;
+}
+.zeroOne{
+    margin-top: 40px;
+    color: white;
+}
+.rightForthBodyPart{
+    width: 75%;
+    /* border: 1px solid black; */
+    /* height: 100%; */
+    height: 65%;
+    margin-top: 55px;
+    font-size: 33px;
+    line-height: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rightForthBodyPart > h2{
+    margin-top: -12px;
+}
+.fifthBodyPart{
+    width: 100%;
+    height: 345px;
+    /* border: 1px solid red; */
+}
+.bodyFour{
+    width: 75%;
+    margin: auto;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.firstBodyFour{
+    width: 32.5%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.firstBodyFour > img{
+    width: 100%;
+    height: 100%;
+    /* background-size: cover; */
+  object-fit: cover;
+}
+.secondBodyFour{
+    width: 32.5%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.secondBodyFour > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.thirdBodyFour{
+    width: 32.5%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.thirdBodyFour > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sixthBodyPart{
+    margin-top: 80px;
+    width: 100%;
+    height: 1000px;
+    /* border: 2px solid blue; */
+}
+.oneSixBodyPart{
+    width: 60%;
+    margin: auto;
+    height: 120px;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 15px;
+    line-height: 57px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.oneSixBodyPart > h2{
+    font-size: 45px;
+}
+.oneSixBodyPart > p{
+    font-size: 20px;
+    color: rgb(75, 75, 75);
+}
+
+.imagePart{
+    width: 75%;
+    margin: auto;
+    height: 76%;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstImagePart{
+    width: 49%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.twoSixBodyPart{
+    width: 44%;
+    height: 31%;
+    margin-left: 310px;
+    /* border: 1px solid black; */
+}
+.twoSixBodyPart > img{
+    width: 100%;
+    height: 100%;
+}
+.threeSixBodyPart{
+    width: 100%;
+    height: 66%;
+    /* border: 1px solid black; */
+}
+.threeSixBodyPart > img{
+    width: 100%;
+    height: 100%;
+}
+
+.secondImagePart{
+    width: 49%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fourSixBodyPart{
+    width: 100%;
+    height: 66%;
+    /* border: 1px solid black; */
+}
+.fourSixBodyPart > img{
+    width: 100%;
+    height: 100%;
+    /* background-size: cover; */
+    object-fit: cover;
+}
+.fiveSixBodyPart{
+    width: 44%;
+    height: 31%;
+    /* border: 1px solid black; */
+}
+.fiveSixBodyPart > img{
+    width: 100%;
+    height: 100%;
+}
+
+.seventhBodyPart{
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+    border: 2px solid white;
+}
+.rectangleShape{
+    border: 1px solid #cad1b6;
+    width: 100%;
+    height: 220px;
+    background-color: #cad1b6;
+    margin-top: 200px;
+}
+.mainImage{
+    width: 505px;
+    height: 340%;
+    margin-left: 720px;
+    /* border: 1px solid blue; */
+    margin-top: -180px;
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/16689/images/painting-hanging-shelf-full-cacti-succulents_53876-110301.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+}
+.sumbitPage{
+    width: 105%;
+    height: 68%;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 100px;
+    right: 450px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contactUs{
+    text-align: center;
+    padding: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 46px;
+    /* color: lightgray; */
+}
+#form > input{
+    width: 77%;
+    padding: 20px;
+    margin-left: 58px;
+    font-size: 17px;
+    border: none;
+    margin-bottom: 2px;
+    border-bottom: 2px solid black;
+    outline: none;
+    color: lightgray;
+}
+#form > textarea{
+    outline: none;
+    padding: 24px;
+    width: 77%;
+    margin-left: 52px;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    margin-top: 12px;
+    border-bottom: 2px solid black;
+    color: lightgray;
+}
+.submit{
+    width: 77%;
+    padding: 15px;
+    margin-left: 52px;
+    margin-top: 8px;
+    border: none;
+    background-color: #6b7e3c;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.submit:hover{
+    background-color: #4e4e4e;
+    cursor: pointer;
+}
+.eightBodyPart{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.eightBodyPart > p > a{
+    color: black;
+}
+
+/* Footer Part */
+#footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 390px;
+    /* border: 1px solid red; */
+    background-color: #333333;
+}
+.maiFooter{
+    width: 72%;
+    margin: auto;
+    height: 78%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+}
+.div1Footer{
+    width: 28%;
+    /* border: 1px solid red; */
+    height: 100%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-top: 100px;
+}
+/* .div1Footer > p{
+    color: white; 
+} */
+.div2Footer{
+    width: 10%;
+    /* border: 1px solid red; */
+    height: 100%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.div3Footer{
+    width: 15%;
+    /* border: 1px solid red; */
+    height: 100%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-top: 60px;
+}
+.div4Footer{
+    width: 15%;
+    /* border: 1px solid red; */
+    height: 100%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.secondMain{
+    text-align: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
