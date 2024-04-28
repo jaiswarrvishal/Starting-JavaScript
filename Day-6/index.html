@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-6</title>
+</head>
+<body>
+   <h3>Check the person is Eligible for DL or Not.</h3>
+   <input type="number" id="number" placeholder="Enter your age. eg 20"/> 
+   <button onclick="CheckAge()">Submit</button>
+
+   <script>
+    
+    function CheckAge(){
+        // console.log(document.getElementById("number").value);
+        const number = document.getElementById("number").value;
+        console.log(number, "Number")
+        if(!number){
+           alert("Enter your age");
+        } else if(number >= 18){
+            alert(`Eligible ${number} for DL`);
+        } else{
+            alert(`Not eligible ${number} for DL`)
+        }
+    }
+   </script>
+</body>
+</html>
