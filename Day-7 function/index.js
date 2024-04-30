@@ -1,5 +1,5 @@
 
-//tTradition function -> to store multiple lines of code
+//Tradition function -> to store multiple lines of code
 //Arrow function
 
 // let num1 = 10;
@@ -29,11 +29,11 @@
 //     var number = 11;
 //     var number1 = 12;
 //     return number + number1;
-//     console.log("hii")
+//     console.log("hii")  
 // }
 
 // const res = addition();
-// console.log(res)   // output=> 23 (bcz after return there will not execute another value)
+// console.log(res)   // output=> 23 (bcz after "return" there will not execute another value)
 
 
 //lets see few more examples=>
@@ -65,6 +65,53 @@
 // }
 // // let number = 90;
 // evenOrOdd(9)
+
+
+// Question: Write a JavaScript program to find the sum of all numbers from 1 to 100 using a for loop
+// var sum = 0;
+// for(var num = 1; num <= 100; num++){
+//     sum = sum + num;
+// }
+// console.log(sum)
+
+// Question: Write a JavaScript program to print even numbers between 1 and 20 using a for loop
+// for(var number = 1; number <= 20; number++){
+//     if(number % 2 ===0){
+//         console.log(number);
+//     }
+// }
+
+// OR
+// for(var number = 2; number <= 20; number += 2){
+//         console.log(number);
+// }
+
+// Question: Write a JavaScript program to find the factorial of a number using a for loop.
+
+// let fact = 1;
+// // for(let i = 1; i <= 5; i++){
+//     for(let i = 1; i <= 6; i++){
+//     fact *= i;
+// }
+// console.log(fact); //6! = 720 | 5!=120
+
+// OR
+// function factorial(n){
+//     let result = 1;
+//     for(let i = 1; i <= n; i++){
+//         result *= i;
+//     }
+//     return result;
+// }
+// console.log("Factorial of 5", factorial(5));
+
+// Question: Write a JavaScript program to generate a multiplication table for a given number using a for loop
+function multiplicationTable(n) {
+    for (let i = 1; i <= 10; i++) {
+        console.log(`${n} x ${i} = ${n * i}`);
+    }
+}
+multiplicationTable(5);
 
 
 //Array 
@@ -136,12 +183,12 @@
 
 
 // Q . Print number from 33 to 76 with gap of 3 but number also must be even
-for(var number = 33; number <= 76; number += 3){
-    if(number % 2 === 0){
-       // console.log("Even");
-        console.log(number);
-    } 
-}
+// for(var number = 33; number <= 76; number += 3){
+//     if(number % 2 === 0){
+//        // console.log("Even");
+//         console.log(number);
+//     } 
+// }
 
 
 // Whats the addition of number from 23 to 89 with gap of 2 and number must be odd.
@@ -157,14 +204,22 @@ for(var number = 33; number <= 76; number += 3){
 // }
 // console.log(count);
 
-// Q. print and multiplication of 1 to 5
-var finalCount;
-for(var i = 1; i <= 5; i++){
-    if(finalCount == undefined){
-        finalCount = i;
-    } else {
-        finalCount = finalCount * i;
-    }
-}
-console.log(finalCount);
+// Q. print multiplication of 1 to 5 (this means => 5!=> 5x4x3x2x1=120)
+// var factorial;
+// for(var i = 1; i <= 5; i++){
+// //for(var factorial = 1; i <= 5; i++){
 
+//     if(factorial == undefined){
+//         factorial = i;
+//     } else {
+//         factorial = factorial * i;
+//     }
+// }
+// console.log(factorial);
+
+// 5!=5*4*3*2*1
+// let res = 1;
+// for(let i = 1; i <= 5; i++){
+//     res = res * i;
+// }
+// console.log(res);

@@ -59,15 +59,15 @@
 
 // Q. Print reversae number from given array, use for loop .
 var array = [1, 2, 4, 45, 5, 6, 7];
-for(var i = 0; i < array.length; i++){
-    console.log(array[i]);
-}
-
-// for(var i = array.length -1; i >= 0; i--){
-//     console.log(array[i])
+// for(var i = 0; i < array.length; i++){
+//     console.log(array[i]);  //output 1, 2, 4, 45, 5, 6, 7
 // }
 
-for(var i = 1; i <= 5; i++){ // this loop will only give the no. pf times will gonna print the value
+for(var i = array.length - 1; i >= 0; i--){
+    console.log(array[i])  //output 7, 6, 5, 45, 4, 2, 1
+}
+
+for(var i = 1; i <= 5; i++){ // this loop will only give the no. of times will gonna print the value(Hello!)
     console.log("Hello!");
 }
 
@@ -86,11 +86,11 @@ console.log(addOddNumber);
 var students = ["rahul", "rohit", "virat", "rishabh"];
 
 // var name = "Thorfinn";
-// console.log(name.length)
+// console.log(name.length) //8
 
 for(var i = 0; i < students.length; i++){
     if(students[i].length > 5){
-        console.log(students[i]);
+        console.log(students[i]); // rishabh
     }
 }
 
