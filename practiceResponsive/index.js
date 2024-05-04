@@ -25,8 +25,19 @@
 // }
 // console.log(sum);
 
-let array = [2, 3, 1, 5, 4, 6]
-for(let j = array.length - 1; j >= 0; j--){
-    console.log(array[j])
+// let array = [2, 3, 1, 5, 4, 6]
+// for(let j = array.length - 1; j >= 0; j--){
+//     console.log(array[j])
+// }
+
+let pair = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+let sum = 10;
+for(let i = 0; i <= pair.length; i++){
+    for(let j = i + 1; j <= pair.length; j++){
+        if(pair[i] + pair[j] === sum){
+            console.log(pair[i], pair[j]);
+        }
+    }
 }
+
 
