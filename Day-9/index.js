@@ -4,7 +4,7 @@ var target = 5;
 
 // var count = 0;
 
-console.log("the two numbers whose addition is target")
+console.log("the two numbers whose addition is target(means 5)")
 for(var i = 0; i<array.length; i++){
     // for(var j = 0; j<array.length; j++){ // count => 36
     for(var j = i + 1; j<array.length; j++){ // count => 15
