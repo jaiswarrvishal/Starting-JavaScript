@@ -9,20 +9,20 @@
 
 // var myObject = { key1 : value1 , key2 : value2 , key3 : value3}
 
-var Details = {
-    name: "Shamiksha",
-    age: 13,
-    location: "Mussoory",
-    isGirl: true,
-    travelPlace: [
-      "Buddha Point",
-      "Gun Point",
-      "Waterfall",
-      "LBSNA",
-      ["one", "two", "three"],
-    ],
-    placeCost: { BuddhaPoint: 150, LBSNA: 1500 },
-  };
+// var Details = {
+//     name: "Shamiksha",
+//     age: 13,
+//     location: "Mussoory",
+//     isSheCute: true,
+//     travelPlace: [
+//       "Buddha Point",
+//       "Gun Point",
+//       "Waterfall",
+//       "LBSNA",
+//       ["one", "two", "three"],
+//     ],
+//     placeCost: { BuddhaPoint: 150, LBSNA: 1500 },
+//   };
   
 // console.log(Details.location) //Mussoory'
 // console.log(Details.travelPlace) 
@@ -53,9 +53,9 @@ var Details = {
   
 
 //other way we can also access the value of Object =>
-  console.log(Details["name"])
-  console.log(Details["age"])
-  console.log(Details["travelPlace"].length)
+//   console.log(Details["name"])
+//   console.log(Details["age"])
+//   console.log(Details["travelPlace"].length)
   
 //   const keys = Object.keys(Details);
 //   console.log(keys);
@@ -67,13 +67,31 @@ var Details = {
 //       console.log(key, Details[key]);
 //     }
 
-// Q. Write a function that takes two numbers as arguments and returns their sum.
-let number1 = 1;
-let number2 = 20;
-function sum(number1, number2){
-    console.log(number1 + number2);
+
+const sunscreen = {
+    brand: "reformYourSKin",
+    place: "Pune",
+    skinType: "all skin type",
+    spf: 50,
+    ingredients: {Niacinamiad: 1,  hyurolonic: 1, vitamin: "C"},
+    plateform: ["online", "offline", ["insta", "website"]]
 }
-sum(number1, number2)
+// console.log(sunscreen.skinType)
+// console.log(sunscreen["place"])
+// console.log(sunscreen.plateform[0])
+// console.log(sunscreen.ingredients.Niacinamiad)
+// console.log(sunscreen.plateform[2])
+// console.log(sunscreen.plateform[2][0]) //insta
+// console.log(sunscreen.spf)
+
+
+// Q. Write a function that takes two numbers as arguments and returns their sum.
+// let number1 = 1;
+// let number2 = 20;
+// function sum(number1, number2){
+//     console.log(number1 + number2);
+// }
+// sum(number1, number2)
 
 // Q. Write a function that takes a string as an argument and returns the string in uppercase.
 function upperCase(text){
@@ -84,7 +102,14 @@ const result = upperCase(message);
 console.log(result);
 
 
+// print 5 to 1 using for loop
+// for(let num = 5; num > 0; num--){
+//     console.log(num);
+// }
 
-for(let num = 5; num > 0; num--){
-    console.log(num);
-}
+console.log(Boolean([]));
+console.log(Boolean({}));
+console.log(Boolean(""));
+console.log(Boolean(0));
+
+
