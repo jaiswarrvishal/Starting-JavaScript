@@ -1,0 +1,5 @@
+{
+    // name: "Vishal",     //Property keys must be doublequoted in JSON => (commites are not permited in JSON)
+    "name": "Vishal",  
+    "age": 10
+}

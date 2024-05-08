@@ -218,3 +218,40 @@
     }
     
 }
+
+/* @media screen and (min-width: 481px) {
+    .section2, .section3, .section4{
+        width: 100%;
+        padding: 20px;
+    }
+    .nav1, .nav2{
+        width: 90%;
+        margin: auto;
+        background-color: red;
+    }
+    .body{
+        height: 550px;
+        width: 90%;
+        overflow: hidden;
+    }
+    .profile{
+        height: 48%;
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+    }
+    .icons{
+        width: 56%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer{
+        width: 100%;
+        /* padding: 15px; */
+    }
+    .footerOne, .footerTwo{
+        width: 60%;
+    }
+} */
