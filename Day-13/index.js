@@ -108,5 +108,5 @@ function sumArray(arr) {
 let array = [1, 2, 3, 4, 5];
 console.log(sumArray(array)); //output-> 15
 
-
+//reduce()
 

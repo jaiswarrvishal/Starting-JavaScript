@@ -36,6 +36,21 @@
 // console.log(res)   // output=> 23 (bcz after "return" there will not execute another value)
 
 
+// function mul(){
+//     let num = 11;
+//     let num1 = 12;
+//     return num * num1;
+// }
+// let res = mul()
+// console.log(res)
+// // console.log(mul());
+
+// function add(one, two){
+//     return one + two;
+// }
+// let final = add(11, 12)
+// console.log(final)
+
 //lets see few more examples=>
 // function increaseNumberOfProduct(){
 //     var product = 1000;
@@ -67,12 +82,43 @@
 // evenOrOdd(9)
 
 
+// function evenOdd(){
+//     if(num % 2 === 0){
+//         console.log("Even")
+//     } else{
+//         console.log("Odd")
+//     }
+// }
+// let num = 14;
+// evenOdd();
+
+
 // Question: Write a JavaScript program to find the sum of all numbers from 1 to 100 using a for loop
 // var sum = 0;
 // for(var num = 1; num <= 100; num++){
 //     sum = sum + num;
 // }
 // console.log(sum)
+
+// for(let i = 1; i <= 5; i++){
+//     console.log(i)
+// }
+
+// for(let i = 10; i > 0; i--){
+//     console.log(i)
+// }
+
+// for(let i = 1; i <= 10; i++){
+//     if(i % 2 === 1){
+//         console.log(i)
+//     }
+// }
+
+// for(let i = 1; i <= 10; i++){
+//     if(i % 2 === 0){
+//         console.log(i)
+//     }
+// }
 
 // Question: Write a JavaScript program to print even numbers between 1 and 20 using a for loop
 // for(var number = 1; number <= 20; number++){
@@ -95,6 +141,16 @@
 // }
 // console.log(fact); //6! = 720 | 5!=120
 
+// function fact(n){
+//     let res = 1;
+//     for(let i = 1; i <= n; i++){
+//         res *= i;
+//     }
+//     return res;
+// }
+// console.log(fact(4)); //4! = 4x3x2x1 = 24
+
+
 // OR
 // function factorial(n){
 //     let result = 1;
@@ -106,12 +162,12 @@
 // console.log("Factorial of 5", factorial(5));
 
 // Question: Write a JavaScript program to generate a multiplication table for a given number using a for loop
-function multiplicationTable(n) {
-    for (let i = 1; i <= 10; i++) {
-        console.log(`${n} x ${i} = ${n * i}`);
-    }
-}
-multiplicationTable(5);
+// function multiplicationTable(n) {
+//     for (let i = 1; i <= 10; i++) {
+//         console.log(`${n} x ${i} = ${n * i}`);
+//     }
+// }
+// multiplicationTable(5);
 
 
 //Array 
@@ -204,6 +260,23 @@ multiplicationTable(5);
 // }
 // console.log(count);
 
+
+// var numb = 0;
+// for(var i = 10; i <= 30; i += 2){
+//     if(i % 2 === 1){
+//         // console.log(i)
+//         numb += i;
+//     }
+// } 
+// console.log(numb);  //0
+
+var number = 0;
+for (var i = 10; i <= 30; i += 2) {
+    number += i;
+}
+console.log(number); //220
+
+
 // Q. print multiplication of 1 to 5 (this means => 5!=> 5x4x3x2x1=120)
 // var factorial;
 // for(var i = 1; i <= 5; i++){
@@ -223,3 +296,5 @@ multiplicationTable(5);
 //     res = res * i;
 // }
 // console.log(res);
+
+
