@@ -115,7 +115,6 @@
 //   }
 // }
 
-// // Example usage:
 // const person = { name: "Alice", age: 25 };
 // const key1 = "name";
 // const key2 = "address";
